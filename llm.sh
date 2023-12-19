@@ -2,7 +2,7 @@
 # https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/tree/main
 # 8GB RAM : Q6 quant for GPU and Q4_K_M for CPU
 
-MODEL=openhermes-2.5-mistral-7b.Q3_K_M.gguf
+MODEL=openhermes-2.5-mistral-7b.Q2_K.gguf
 wget https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF/resolve/main/${MODEL}
 
 # https://gpt4all.io
