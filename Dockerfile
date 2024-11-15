@@ -12,6 +12,6 @@ WORKDIR /scripts
 
 COPY llm.sh .
 
-RUN chmod 777 llm.sh
+RUN chmod +x llm.sh
 
 CMD ./llm.sh 

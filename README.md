@@ -1,5 +1,6 @@
-docker build -t llm .  
-docker run --restart unless-stopped -p 8086:8086 -dit llm  
+# local llm  
+
+`docker-compose up -d`  
 
 endpoint : http://localhost:8086/completion
 ```

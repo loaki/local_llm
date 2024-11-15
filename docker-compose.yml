@@ -1,0 +1,9 @@
+services:
+  llm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: llm
+    restart: unless-stopped
+    ports:
+      - "8086:8086"
